@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 NUM1=100
@@ -5,11 +6,9 @@ NUM2=200
 
 SUM=$((NUM1+NUM2))
 
-echo "sum is : $sum"
+echo "Sum is : $SUM"
 
-#ARRAY
-
+# ARRAY
 FRUITS=("APPLE" "BANANA" "ORANGE")
 
-echo fruits are ${FRUITS[@]}
-
+echo "Fruits are: ${FRUITS[@]}"
