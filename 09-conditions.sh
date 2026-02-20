@@ -9,4 +9,6 @@ NUMBER=$1
 
 if [ $NUMBER -gt 20 ]; then
     echo "number is greater than 20"
-fi    
+else 
+    echo "number is less than or equal to 20"
+fi
