@@ -13,3 +13,17 @@ if [ $? -ne 0 ]; then
 else
     echo "nginx web server installed successfully."
 fi  
+dnf install mysql-sever -y
+if [ $? -ne 0 ]; then
+    echo "mysql-sever installation failed."
+    exit 1
+else
+    echo "mysql-sever installed successfully."
+fi
+dnf install nodejs -y
+if [ $? -ne 0 ]; then
+    echo "nodejs installation failed."
+    exit 1
+else
+    echo "nodejs installed successfully."
+fi
